@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author IshTheDev, duvishsuthar, AydanChristensen
+ * @author Ishaan,
  */
 public class TakeHomeTest {
 
