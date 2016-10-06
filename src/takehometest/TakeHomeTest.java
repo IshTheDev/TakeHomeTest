@@ -7,7 +7,7 @@ package takehometest;
 
 /**
  *
- * @author student
+ * @author IshTheDev, duvishsuthar, AydanChristensen
  */
 public class TakeHomeTest {
 
@@ -16,6 +16,8 @@ public class TakeHomeTest {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+
+    System.out.println("Enter your Integer Number...");
     }
-    
 }
+
