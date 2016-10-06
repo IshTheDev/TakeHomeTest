@@ -5,19 +5,23 @@
  */
 package takehometest;
 
+import java.util.Scanner;
+
 /**
  *
  * @author IshTheDev, duvishsuthar, AydanChristensen
  */
 public class TakeHomeTest {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-
-    System.out.println("Enter your Integer Number...");
-    }
+        
+   
+   
+  Scanner reader = new Scanner (System.in);
+ 
+  System.out.println("Enter A Integer: ");
+   
+  int n = reader.nextInt();
+     }
 }
 
