@@ -14,17 +14,16 @@ import java.util.Scanner;
 public class TakeHomeTest {
 
     public static void main(String[] args) {
-        
-   
-   
-  Scanner reader = new Scanner (System.in);
- 
-  System.out.println("Enter A Integer: ");
-   
-  int n = reader.nextInt();
-    
-     if(n>0);
-    System.out.println(n)
-     }
-}
 
+        Scanner reader = new Scanner(System.in);
+
+        System.out.println("Enter A Integer: ");
+
+        int n = reader.nextInt();
+        
+        
+       
+        System.out.println(n);
+
+    }
+}
