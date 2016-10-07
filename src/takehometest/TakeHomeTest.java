@@ -22,6 +22,9 @@ public class TakeHomeTest {
   System.out.println("Enter A Integer: ");
    
   int n = reader.nextInt();
+    
+     if(n>0);
+    System.out.println(n)
      }
 }
 
