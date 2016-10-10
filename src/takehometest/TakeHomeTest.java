@@ -12,6 +12,7 @@ import java.util.Scanner;
  * @author Ishaan,
  */
 public class TakeHomeTest {
+    private static Object numbers;
 
    
     
@@ -23,13 +24,13 @@ public class TakeHomeTest {
 
         int n = reader.nextInt();
 
-        System.out.println(n);
         
-        for(int n = 0; n < 0; n++;) {
-    
-        System.out.println(n);
+        
+        for(int i = 0; i < n; i++) {
+             
+        System.out.println(i);
     
     }
-    }
+  }
 }
 
