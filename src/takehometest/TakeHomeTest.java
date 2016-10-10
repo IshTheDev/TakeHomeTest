@@ -13,7 +13,8 @@ import java.util.Scanner;
  */
 public class TakeHomeTest {
 
-    @SuppressWarnings("empty-statement")
+   
+    
     public static void main(String[] args) {
 
         Scanner reader = new Scanner(System.in);
@@ -23,9 +24,12 @@ public class TakeHomeTest {
         int n = reader.nextInt();
 
         System.out.println(n);
-        for (n < 0) {
-            
-        }
+        
+        for(int n = 0; n < 0; n++;) {
+    
+        System.out.println(n);
+    
+    }
     }
 }
 
