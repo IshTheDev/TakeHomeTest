@@ -13,6 +13,7 @@ import java.util.Scanner;
  */
 public class TakeHomeTest {
 
+    @SuppressWarnings("empty-statement")
     public static void main(String[] args) {
 
         Scanner reader = new Scanner(System.in);
@@ -20,10 +21,11 @@ public class TakeHomeTest {
         System.out.println("Enter A Integer: ");
 
         int n = reader.nextInt();
-        
-        
-       
-        System.out.println(n);
 
+        System.out.println(n);
+        for (n < 0) {
+            
+        }
     }
 }
+
