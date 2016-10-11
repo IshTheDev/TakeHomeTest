@@ -29,8 +29,12 @@ public class TakeHomeTest {
         for(int i = 0; n >= i; i++) {
              
         System.out.println(i);
+        }
+           System.out.println("Enter A Different Integer");
     
-    }
   }
 }
+
+
+
 
