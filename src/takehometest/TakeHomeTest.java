@@ -30,8 +30,9 @@ public class TakeHomeTest {
              
         System.out.println(i);
         }
-           System.out.println("Enter A Different Integer");
-    
+           System.out.println("Enter A Different Integer:");
+            Scanner readerx = new Scanner(System.in);
+            int j = reader.nextInt();
   }
 }
 
