@@ -32,9 +32,15 @@ public class TakeHomeTest {
         }
             System.out.println("Enter Another One: ");
         int input = reader.nextInt();
+        
+        if(input >= 0) {
+            
+            double x;
+            x = MathFunctions.SquareRootAndAddThree(input);
+            System.out.println(x);
   }
 }
 
-
+}
 
 
