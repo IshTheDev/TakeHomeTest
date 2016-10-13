@@ -5,11 +5,13 @@
  */
 package takehometest;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 /**
  *
- * @author Ishaan,
+ * @author Ishaan,Duvish,and Aydan
  */
 public class TakeHomeTest {
     private static Object numbers;
@@ -38,9 +40,20 @@ public class TakeHomeTest {
             double x;
             x = MathFunctions.SquareRootAndAddThree(input);
             System.out.println(x);
-  }
+            
+            List myList = new ArrayList();
+             
+             if(x>=0){
+            myList.add(x);       
+        }
+            else{
+            System.out.println("Invalid Input");
+            }
+        int sum=0;
+        
+       
+        
+         sum = (int) (sum + x);
 }
-
 }
-
-
+}
