@@ -54,6 +54,7 @@ public class TakeHomeTest {
        
         
          sum = (int) (sum + x);
+        }
+    }
 }
-}
-}
+
