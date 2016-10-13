@@ -32,7 +32,7 @@ public class TakeHomeTest {
              
         System.out.println(i);
         }
-            System.out.println("Enter Another One: ");
+            System.out.println("Enter Another Integer: ");
         int input = reader.nextInt();
         
         if(input >= 0) {
